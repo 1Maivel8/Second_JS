@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beach Game Store</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+     <link rel="stylesheet" href="css/all.css">
+ <script src="js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body>
+ <nav class="navbar navbar-expand-sm bg-success">
+
+  <div class="container-fluid">
+    <!-- Links -->
+  
+    <img src="images/Summer.png" alt="" width="100" height="60">
+   
+  <p class="title">Beach Box</p>
+         <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="#">Summer Fun Store</a>
+      </li>
+  </div><!--container-fluid-->
+</nav><!--navbar-->
+<!----------------------------------1-------------------------------->
+
+<h1>Welcome to Summer Fun Store 
+<button type="button" class="btn btn-outline-success">Shop Now</button>
+</h1>
+
+<div class="container" style="display: flex; gap: 20px;">
+<div class="card" style="width:400px">
+  <img class="card-img-top" src="images/Beach Ball.png" alt="Card image" style="width: 150px; height: 250px;">
+  <div class="card-body">
+    <h4 class="card-title">A beach ball is fun to play with in the sand or water</h4>
+     <div class="offcanvas offcanvas-start" id="demo">
+  <div class="offcanvas-header">
+    <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
+
+ 
+  </div><!---offcanvas-header-->
+
+  <p style="color: rgb(48, 154, 48); font-size: 20px; text-align: center;">🔔To confirm your order booking</p>
+  <div class="form-floating mb-3 mt-3" style=" height: 40px;">
+  <input type="text" class="form-control" id="email" placeholder="Enter email" name="email"  >
+  <label for="email">Name</label>
+</div><!----form-floating-->
+
+<div class="form-floating mt-3 mb-3">
+  <input type="text" class="form-control" id="pwd" placeholder="Enter password" name="pswd">
+  <label for="pwd">Address</label>
+</div><!---form-floating-->
+<div class="form-floating mt-3 mb-3">
+  <input type="text" class="form-control" id="pwd" placeholder="Enter password" name="pswd">
+  <label for="pwd">Mobile Number</label>
+</div><!----form-floating-->
+     <ul class="list">
+          <input type="text" id="inputsearch" placeholder="Summer Items🔎">
+
+  <li price="700">Beach Ball</li>
+  <li price="1000">Beach Chairs</li>
+  <li price="100">Kites</li>
+  <li price="600">Sand Shovels</li>
+</ul><!---list-->
+<div id="content"></div>
+<p id="notFound" style="color: red; display: none;" >📢The item you searched for is not found</p>
+<button id="showprice" style="display: none;">Total</button>
+<button id="Clear" style="display: none;">Clear</button>
+<button type="button" class="btn btn-outline-success" style="margin: 50px 0 0 250px; width: 100px;">Done</button>
+  </div><!----offcanvas-->
+  
+
+
+<div class="container-fluid mt-3">
+  
+  <button class="btn btn-outline-success text-black" type="button" data-bs-toggle="offcanvas" data-bs-target="#demo">
+   Add to Cart
+  </button>
+
+</div><!--card-->
+
+  </div><!--container-fluid -->
+ 
+</div><!---card-body-->
+<!--------------------------------------------sec1--------------------------------------------->
+<div class="card" style="width:400px">
+  <img class="card-img-top" src="images/Beach Chairs.png" alt="Card image" style="width: 150px; height: 250px;">
+  <div class="card-body">
+    <h4 class="card-title">Beach chairs are used to sit and relax on the beach</h4>
+ <div class="offcanvas offcanvas-start" id="demo">
+  <div class="offcanvas-header">
+    <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
+  </div><!---offcanvas-header-->
+     <ul class="list">
+          <input type="text" id="inputsearch" placeholder="Summer Items🔎">
+  <li price="700">Beach Ball</li>
+  <li price="1000">Beach Chairs</li>
+  <li price="100">Kites</li>
+  <li price="600">Sand Shovels</li>
+</ul><!---list-->
+<div id="content"></div>
+<p id="notFound" style="color: red; display: none;" >📢The item you searched for is not found</p>
+<button id="showprice" style="display: none;">Total</button>
+<button id="Clear" style="display: none;">Clear</button>
+  </div><!---offcanvas--->
+<div class="container-fluid mt-3">
+  <button class="btn btn-outline-success text-black" type="button" data-bs-toggle="offcanvas" data-bs-target="#demo">
+   Add to Cart
+  </button>
+
+</div><!----container-fluid-->
+  </div><!---card-->
+</div><!---card-body-->
+<!---------------------------------------sec2------------------------------->
+
+<div class="card" style="width:400px">
+  <img class="card-img-top" src="images/Kites.png" alt="Card image" style="width: 150px; height: 250px;">
+  <div class="card-body">
+    <h4 class="card-title">Kites are fun toys that fly in the wind</h4>
+ <div class="offcanvas offcanvas-start" id="demo">
+  <div class="offcanvas-header">
+    <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
+
+  </div><!------offcanvas-header-->
+     <ul class="list">
+          <input type="text" id="inputsearch" placeholder="Summer Items🔎">
+
+  <li price="700">Beach Ball</li>
+  <li price="1000">Beach Chairs</li>
+  <li price="100">Kites</li>
+  <li price="600">Sand Shovels</li>
+</ul><!----list-->
+<div id="content"></div>
+<p id="notFound" style="color: red; display: none;" >📢The item you searched for is not found</p>
+<button id="showprice" style="display: none;">Total</button>
+<button id="Clear" style="display: none;">Clear</button>
+  </div><!----offcanvas-->
+<div class="container-fluid mt-3">
+  <button class="btn btn-outline-success text-black" type="button" data-bs-toggle="offcanvas" data-bs-target="#demo">
+   Add to Cart
+  </button>
+
+</div><!-----container-fluid-->
+  </div><!-----card-->
+</div><!----card-body-->
+<!------------------------------------------------sec3------------------------------>
+<div class="card" style="width:400px">
+  <img class="card-img-top" src="images/Sand Shovels.png" alt="Card image" style="width: 150px; height: 250px;">
+  <div class="card-body">
+    <h4 class="card-title">Sand shovels are used to dig and play in the sand</h4>
+ <div class="offcanvas offcanvas-start" id="demo">
+  <div class="offcanvas-header">
+    <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
+
+  </div><!-----offcanvas-header-->
+     <ul class="list">
+          <input type="text" id="inputsearch" placeholder="Summer Items🔎">
+  <li price="700">Beach Ball</li>
+  <li price="1000">Beach Chairs</li>
+  <li price="100">Kites</li>
+  <li price="600">Sand Shovels</li>
+</ul><!---list-->
+<div id="content"></div>
+<p id="notFound" style="color: red; display: none;" >📢The item you searched for is not found</p>
+<button id="showprice" style="display: none;">Total</button>
+<button id="Clear" style="display: none;">Clear</button>
+  </div><!---content-->
+
+
+<div class="container-fluid mt-3">
+  <button class="btn btn-outline-success text-black" type="button" data-bs-toggle="offcanvas" data-bs-target="#demo">
+   Add to Cart
+  </button>
+  </div><!--container-fluid-->
+</div><!-----card-->
+</div><!--------card-body-->
+<!-----------------------------------dec4------------------------------>
+
+<div id="content">
+  <button id="clear" style="display: none;">clear</button>
+  <button id="ShowPrice" style="display: none;">Show Price</button>
+</div><!-----container-->
+</div><!----content-->
+<!------------------------------------------------------------------------------------------>
+
+<label for="comment" style="margin-top: 40px; font-size: 20px; color: rgb(13, 176, 13);">Enjoy your experience! We’d love your feedback❤</label>
+<textarea class="form-control" rows="5" id="comment" placeholder="Your Feedback" name="text" style="width: 400px; margin: 30px 0 0 20px"></textarea>
+<div class="footer">
+<p>Cantact Us☎</p>
+<i class="fa-brands fa-facebook fa-beat-fade fa-xl" style="color: #74C0FC; margin-left: 20px; cursor: pointer;"></i>
+<i class="fa-brands fa-whatsapp fa-beat fa-xl" style="color: #74C0FC;  margin-left: 20px; cursor: pointer;"></i>
+<i class="fa-brands fa-twitter fa-beat fa-xl" style="color: #74C0FC; margin-left: 20px; cursor: pointer;"></i>
+<p style="text-align: center; color: rgb(40, 135, 16); font-size: 25px;">Share your best summer moments with us using the hashtag #Summer_Vibes🥽</p>
+<img class="img-footer" src="images/Whale.gif" alt="">
+</div><!---footer-->
+
+
+    <script src="js/script.js"></script>
+</body>
+</html>
